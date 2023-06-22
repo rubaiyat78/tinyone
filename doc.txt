@@ -1,0 +1,41 @@
+fonts:
+font-family: 'PT Sans', sans-serif;
+
+header
+======
+PTSans - 400, 700 - 16px, 20px, 22px, 32px
+
+#####################################################
+color:
+text-color
+==========
+black: #010101
+bluish ash: #313841
+banner ash: #555555
+
+features + footer ash: #898989
+
+yellow: #fcdb00
+
+
+banner
+======
+bg-yellow: #fcdb00
+
+features
+========
+bg: white
+
+footer
+======
+bg: #010101
+
+screen
+======
+  xxl-xl-lg       md        sm-col
+1440/1200/1024    768       576/320
+
+
+header-----
+            xxl/xl/lg       md      sm/col
+menu            22          22         

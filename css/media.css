@@ -1,0 +1,266 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* common */
+    .c_padding {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    /* common */
+
+    /* header starts */
+    header {
+        padding: 10px 0;
+    }
+    .menu ul li a {
+        margin: 5px 0 0;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+    }
+    /* header ends */
+
+    /* banner starts */
+    .banner {
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+    .sl_text {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .sl_text h2 {
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+    .sl_text p {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .c_indicator {
+        bottom: -70px;
+    }
+    /* banner ends */
+    
+    /* feature starts */
+    .c_h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .c_p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .f_item {
+        margin-top: 30px;
+    }
+    .f_icon i {
+        margin-top: 0;
+        font-size: 35px !important;
+    }
+    .f_text {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .f_text h2 {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .f_text p {
+        letter-spacing: 0;
+    }
+    /* feature ends */
+
+    /* subscribe starts */
+    .c_form {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .c_input {
+        height: 45px;
+        padding: 10px 15px;
+    }
+    .c_submit {
+        height: 45px;
+    }
+    .s_icon li {
+        margin-right: 20px !important;
+    }
+    .s_icon li i {
+        font-size: 40px;
+    }
+    /* subscribe ends */
+
+    /* footer starts */
+    footer {
+        padding-bottom: 65px;
+    }
+    .f_1 {
+        text-align: center;
+    }
+    .f_2 {
+        margin-top: 30px;
+        text-align: center;
+    }
+    /* footer ends */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* common */
+    .c_padding {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    /* common */
+
+    /* header starts */
+    .menu ul li a {
+        margin: 5px 0 0;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+    }
+    /* header ends */
+
+    /* banner starts */
+    .banner {
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+    .sl_text {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .sl_text h2 {
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+    .sl_text p {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .c_indicator {
+        bottom: -70px;
+    }
+    /* banner ends */
+
+    /* feature starts */
+    .f_item {
+        margin-top: 30px;
+    }
+    .f_icon i {
+        margin-top: 0;
+        font-size: 35px !important;
+    }
+    .f_text {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .f_text h2 {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .f_text p {
+        letter-spacing: 0;
+    }
+    /* feature ends */
+
+    /* subscribe starts */
+    .c_form {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .c_input {
+        height: 45px;
+        padding: 10px 15px;
+    }
+    .c_submit {
+        height: 45px;
+    }
+    .s_icon li {
+        margin-right: 20px !important;
+    }
+    .s_icon li i {
+        font-size: 40px;
+    }
+    /* subscribe ends */
+
+    /* footer starts */
+    footer {
+        padding-bottom: 65px;
+    }
+    .f_1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .f_2 {
+        text-align: center;
+    }
+    /* footer ends */
+    
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* common */
+    .c_padding {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    /* common */
+
+    /* header starts */
+    .menu ul li a {
+        margin: 5px 0 0;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+    }
+    /* header ends */
+
+    /* feature starts */
+    .f_item {
+        margin-top: 60px;
+    }
+    /* feature ends */
+
+    /* subscribe starts */
+    .c_form {
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+    /* subscribe ends */
+
+    /* footer starts */
+    footer {
+        padding-bottom: 100px;
+    }
+    /* footer ends */
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}

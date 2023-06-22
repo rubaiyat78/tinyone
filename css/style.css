@@ -1,0 +1,248 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+/* font link */
+
+/* common starts */
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+}
+.c_padding {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+/* common ends */
+
+/* header starts */
+header {
+    padding: 25px 0;
+    background-color: #fcdb00;
+}
+
+/* .c_nav {} */
+/* .logo {} */
+
+.toggle-btn {
+    color: #010101 !important;
+}
+.menu {
+    background-color: white;
+}
+.menu ul li a {
+    margin: 0 40px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #010101 !important;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: 1s ease !important;
+}
+.menu ul li:last-child a {
+    margin-right: 0 !important;
+}
+.menu ul li a:hover {
+    border-top: 2px solid #010101;
+    border-bottom: 2px solid #010101;
+}
+/* header ends */
+
+/* banner starts */
+.banner {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #fcdb00;
+}
+.c_indicator {
+    bottom: -80px;
+}
+.c_indicator [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.sl_text {
+    margin-top: 70px;
+}
+.sl_text h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.sl_text h2 {
+    width: 80%;
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841 !important;
+}
+.sl_text p {
+    width: 90%;
+    margin-bottom: 35px;
+    line-height: 20px;
+    color: #555555;
+}
+
+/* .sl_icon {} */
+
+.sl_icon ul li {
+    margin-right: 30px !important;
+}
+.sl_icon ul li:last-child {
+    margin-right: 0 !important;
+}
+.sl_icon ul li i {
+    font-size: 42px;
+    color: #010101;
+    transition: 0.33s ease;
+}
+.sl_icon ul li i:hover {
+    transform: scale(.8);
+}
+.c_btn {
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    border: 2px solid #010101;
+}
+.c_btn:hover {
+    background-color: 2px solid #010101;
+    color: white;
+}
+.c_btn i {
+    margin-left: 10px;
+}
+
+/* .sl_img {} */
+/* .sl_img img {} */
+
+/* banner ends */
+
+/* features starts */
+
+/* .feature {} */
+/* .c_title {} */
+
+.c_h1 {
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+.c_p {
+    font-size: 20px;
+    color: #313841;
+    line-height: 28px;
+}
+.f_item {
+    margin-top: 80px;
+}
+
+/* .f_icon {} */
+
+.f_icon i {
+    margin-top: 4px;
+    font-size: 50px !important;
+    color: #010101 !important;
+    transition: .3s ease;
+}
+.f_icon i:hover {
+    transform: scale(.8);
+}
+
+/* .f_text {} */
+
+.f_text h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #010101;
+}
+.f_text p {
+    letter-spacing: 1px;
+}
+/* features ends */
+
+/* subscribe starts */
+.subscribe {
+    background-color: #010101;
+}
+.yellow {
+    color: #fcdb00;
+}
+.l_ash {
+    color: #898989;
+}
+.c_form {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.c_input {
+    height: 55px;
+    padding: 15px 20px;
+}
+.c_input::placeholder {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+}
+.c_submit {
+    width: 100%;
+    height: 55px;
+    background-color: #fcdb00;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #010101;
+    text-transform: uppercase;
+    transition: 0.33s ease;
+}
+.c_submit:hover {
+    background-color: #fcdb00;
+    color: #010101;
+    transform: scale(1.1);
+}
+
+/* .s_icon {} */
+
+.s_icon li {
+    margin-right: 30px !important;
+}
+.s_icon li:last-child {
+    margin-right: 0 !important;
+}
+.s_icon li i {
+    font-size: 42px;
+    color: #fcdb00;
+    transition: .33s ease;
+}
+.s_icon li i:hover {    
+    transform: scale(1.1);
+}
+/* subscribe ends */
+
+/* footer starts */
+footer {
+    padding-bottom: 120px;
+    background-color: #010101;
+}
+
+/* .f_1 {} */
+
+.f_1 address {
+    line-height: 20px;
+    color: white;
+}
+
+/* .f_2 {} */
+
+.f_2 p a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+/* footer ends */
